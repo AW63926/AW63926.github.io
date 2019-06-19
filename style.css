@@ -1,0 +1,112 @@
+* {
+	font-family: Arial, sans-serif;
+	line-height: 1.618em;
+	box-sizing: border-box;
+}
+
+
+
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #777;
+	
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+
+}
+nav a {
+	padding: .5em 2em;
+	text-decoration: none;
+	color:#fff;
+
+}
+nav a:hover {
+	background: #666;
+}
+
+header {
+	padding-top: 3em;
+	color:666;
+	padding-top: 3em;
+}
+header, main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+
+#mail {
+	color: #999;
+}
+
+footer {
+	margin: 0 auto;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #777;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	width: 100%;
+	text-align: center;
+
+}
+
+img {
+	float: left;
+	padding-right: 1em;
+	padding-bottom: .5em;
+	padding-left: .5em;
+	padding-top: .5em;
+	width: 250px;
+	height: 250px;
+	
+   	
+   	
+}
+
+#projects {
+	padding-top: 3em;
+}
+
+#contact {
+	padding-top: 3em;
+}
+
+#about {
+	padding-top: 3em;
+}
+#aboutMe {
+	padding-left: 1em;
+}
+
+#goToTop {
+
+}
+
+#projectGrid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+
+	grid-gap: 1em;
+
+}
+#projectGrid article {
+	background: #ccc;
+	padding: 1em;
+}
+
+#projectGrid article img {
+	border: 1px solid #333;
+	width: 100%;
+	
+	
+	
+}
+
