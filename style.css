@@ -12,7 +12,7 @@ nav{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #777;
+	background-color: black;
 	
 	display: flex;
 	flex-flow: row;
@@ -26,7 +26,7 @@ nav a {
 
 }
 nav a:hover {
-	background: #666;
+	background: #999;
 }
 
 header {
@@ -34,14 +34,14 @@ header {
 	color:666;
 	padding-top: 3em;
 }
-header, main {
+main  {
 	max-width: 800px;
 	margin: 0 auto;
 }
 
 
 #mail {
-	color: #999;
+	color: black;
 }
 
 footer {
@@ -49,7 +49,8 @@ footer {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #777;
+	color: #fff;
+	background: black;
 	padding-top: 2em;
 	padding-bottom: 1em;
 	width: 100%;
@@ -57,7 +58,7 @@ footer {
 
 }
 
-img {
+#profilePic {
 	float: left;
 	padding-right: 1em;
 	padding-bottom: .5em;
@@ -98,7 +99,7 @@ img {
 
 }
 #projectGrid article {
-	background: #ccc;
+	background: black;
 	padding: 1em;
 }
 
@@ -109,4 +110,21 @@ img {
 	
 	
 }
+#headerImg {
+	margin: 0 auto;
+	display: block;
+	max-width: 800px;
+	height: 200px;
+	border: 1px solid #fff;
 
+	
+	
+}
+
+h3 {
+	color: #fff;
+}
+
+#top {
+	color: #333;
+}
