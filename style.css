@@ -121,10 +121,32 @@ footer {
 	
 }
 
-h3 {
-	color: #fff;
+#fortuneH3 {
+	color: aqua;
+}
+
+#shelterH3 {
+	color: orange;
+}
+
+#amokH3 {
+	color: lime;
 }
 
 #top {
 	color: #333;
 }
+
+#fortuneDescription {
+	color: #fff;
+}
+
+#shelterDescription {
+	color: #fff;
+}
+
+#amokDescription {
+	color: #fff;
+}
+
+
