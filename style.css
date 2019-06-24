@@ -40,9 +40,6 @@ main  {
 }
 
 
-#mail {
-	color: black;
-}
 
 footer {
 	margin: 0 auto;
@@ -55,7 +52,7 @@ footer {
 	padding-bottom: 1em;
 	width: 100%;
 	text-align: center;
-
+	
 }
 
 #profilePic {
@@ -67,8 +64,8 @@ footer {
 	width: 250px;
 	height: 250px;
 	
-   	
-   	
+	
+	
 }
 
 #projects {
@@ -87,7 +84,7 @@ footer {
 }
 
 #goToTop {
-
+	
 }
 
 #projectGrid {
@@ -96,7 +93,7 @@ footer {
 	grid-template-rows: auto;
 
 	grid-gap: 1em;
-
+	
 }
 #projectGrid article {
 	background: black;
@@ -150,6 +147,14 @@ footer {
 }
 
 #linkedIn {
-	color: black;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	
 }
+
+#mail {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
 
