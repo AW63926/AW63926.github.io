@@ -84,6 +84,14 @@ $profilePic2.mouseout(function imgChangeFunction() {
     
 })
 
+var $profilePic3 = $('#skeletonImg');
+$profilePic3.click(function imgChangeFunction() {
+    $('#skeletonImg').toggle();
+    $('#profilePic').toggle();
+    
+    
+})
+
 
 
 
