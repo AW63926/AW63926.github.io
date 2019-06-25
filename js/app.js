@@ -20,3 +20,35 @@ linkedImg.onmouseout = function() {
     linkedImg.style.width = '8%';
     
 }
+
+var $eyeOpen = $('#openeye');
+$eyeOpen.click(function() {
+    $('#aboutNav').toggle();
+    $('#projectNav').toggle();
+    $('#contactNav').toggle();
+    $('#openeye').toggle();
+    $('#closedeye').toggle();
+})
+
+$(document).ready(function() {
+    $('#openeye').toggle();
+    var $myVar = $('#closedeye');
+    $myVar.click(function() {
+    $('#aboutNav').toggle();
+    $('#projectNav').toggle();
+    $('#contactNav').toggle();
+    $('#openeye').toggle();
+    $('#closedeye').toggle();
+
+
+});
+})
+
+// var $myVar = $('#closedeye');
+// $myVar.click(function() {
+//     $('#aboutNav').toggle();
+//     $('#projectNav').toggle();
+//     $('#contactNav').toggle();
+//     $('#openeye').toggle();
+
+// });
