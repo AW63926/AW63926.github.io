@@ -29,9 +29,57 @@ $eyeOpen.click(function() {
     $('#openeye').toggle();
     $('#closedeye').toggle();
 })
+var $eye1 = $('#tinyOpenEye1');
+$eye1.click(function(){
+    $('#fortuneDescription').toggle();
+    $('#tinyClosedEye1').toggle();
+    $('#tinyOpenEye1').toggle();
+})
+
+var $eye2 = $('#tinyOpenEye2');
+$eye2.click(function(){
+    $('#shelterDescription').toggle();
+    $('#tinyClosedEye2').toggle();
+    $('#tinyOpenEye2').toggle();
+})
+
+var $eye3 = $('#tinyOpenEye3');
+$eye3.click(function(){
+    $('#amokDescription').toggle();
+    $('#tinyClosedEye3').toggle();
+    $('#tinyOpenEye3').toggle();
+})
+
+var $eye4 = $('#tinyClosedEye1');
+$eye4.click(function(){
+    $('#fortuneDescription').toggle();
+    $('#tinyOpenEye1').toggle();
+    $('#tinyClosedEye1').toggle();
+})
+
+var $eye5 = $('#tinyClosedEye2');
+$eye5.click(function(){
+    $('#shelterDescription').toggle();
+    $('#tinyOpenEye2').toggle();
+    $('#tinyClosedEye2').toggle();
+})
+
+var $eye6 = $('#tinyClosedEye3');
+$eye6.click(function(){
+    $('#amokDescription').toggle();
+    $('#tinyOpenEye3').toggle();
+    $('#tinyClosedEye3').toggle();
+})
+
 
 $(document).ready(function() {
     $('#openeye').toggle();
+    $('#tinyClosedEye1').toggle();
+    $('#tinyClosedEye2').toggle();
+    $('#tinyClosedEye3').toggle();
+    $('#fortuneDescription').toggle();
+    $('#shelterDescription').toggle();
+    $('#amokDescription').toggle();
     var $myVar = $('#closedeye');
     $myVar.click(function() {
     $('#aboutNav').toggle();
