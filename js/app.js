@@ -71,8 +71,24 @@ $eye6.click(function(){
     $('#tinyClosedEye3').toggle();
 })
 
+var $profilePic = $('#profilePic');
+$profilePic.click(function changeImg() {
+    $('#skeletonImg').toggle();
+    $('#profilePic').toggle();
+})
+var $profilePic2 = $('#skeletonImg');
+$profilePic2.click(function imgChangeFunction() {
+    $('#skeletonImg').toggle();
+    $('#profilePic').toggle();
+    
+    
+})
+
+
+
 
 $(document).ready(function() {
+    $('#skeletonImg').toggle();
     $('#openeye').toggle();
     $('#tinyClosedEye1').toggle();
     $('#tinyClosedEye2').toggle();
@@ -91,7 +107,13 @@ $(document).ready(function() {
 
 });
 })
+document.getElementById('modalButton').addEventListener("click", function() {
+	document.querySelector('.modal').style.display = "flex";
+});
 
+document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('.modal').style.display = "none";
+});
 // var $myVar = $('#closedeye');
 // $myVar.click(function() {
 //     $('#aboutNav').toggle();
