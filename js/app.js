@@ -72,12 +72,12 @@ $eye6.click(function(){
 })
 
 var $profilePic = $('#profilePic');
-$profilePic.click(function changeImg() {
+$profilePic.mouseover(function changeImg() {
     $('#skeletonImg').toggle();
     $('#profilePic').toggle();
 })
 var $profilePic2 = $('#skeletonImg');
-$profilePic2.click(function imgChangeFunction() {
+$profilePic2.mouseout(function imgChangeFunction() {
     $('#skeletonImg').toggle();
     $('#profilePic').toggle();
     
