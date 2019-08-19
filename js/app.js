@@ -122,11 +122,3 @@ document.getElementById('modalButton').addEventListener("click", function() {
 document.querySelector('.close').addEventListener("click", function() {
 	document.querySelector('.modal').style.display = "none";
 });
-// var $myVar = $('#closedeye');
-// $myVar.click(function() {
-//     $('#aboutNav').toggle();
-//     $('#projectNav').toggle();
-//     $('#contactNav').toggle();
-//     $('#openeye').toggle();
-
-// });
