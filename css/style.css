@@ -12,7 +12,7 @@ nav{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: black;
+	background-color: rgb(214, 218, 223);
 	
 	display: flex;
 	flex-flow: row;
@@ -28,6 +28,8 @@ nav a {
 nav a:hover {
 	background: #999;
 }
+
+
 
 header {
 	padding-top: 3em;
@@ -47,7 +49,7 @@ footer {
 	left: 0;
 	width: 100%;
 	color: #fff;
-	background: black;
+	background:  rgb(214, 218, 223);
 	padding-top: 2em;
 	padding-bottom: 1em;
 	width: 100%;
@@ -77,7 +79,7 @@ footer {
 }
 
 #about {
-	padding-top: 3em;
+	padding-top: 1em;
 }
 #aboutMe {
 	padding-left: 1em;
@@ -94,7 +96,7 @@ footer {
 	
 }
 #projectGrid article {
-	background: black;
+	background: rgb(214, 218, 223);
 	padding: 1em;
 }
 
@@ -109,27 +111,27 @@ footer {
 	margin: 0 auto;
 	display: block;
 	max-width: 800px;
-	height: 200px;
-	border: 1px solid #fff;
+	height: 400px;
+	
 
 	
 	
 }
 
 #fortuneH3 {
-	color: aqua;
+	color: #3a5f96;
 }
 
 #shelterH3 {
-	color: orange;
+	color:  #3a5f96;
 }
 
 #amokH3 {
-	color: lime;
+	color:  #3a5f96;
 }
 
 #top {
-	color: #333;
+	color:  #3a5f96;
 }
 
 #fortuneDescription {
@@ -160,13 +162,20 @@ footer {
 }
 
 #tinyClosedEye1, #tinyOpenEye1, #tinyClosedEye2, #tinyOpenEye2, #tinyClosedEye3, #tinyOpenEye3 {
-	max-width: 30px;
-	max-height: 30px;
+	max-width: 60px;
+	max-height: 70px;
 	border: none;
+	background-color:rgb(214, 218, 223); 
 }
 
 #modalButton {
 	float: right;
+}
+
+
+#closedeye, #openeye{
+	height: 40px;
+	width: 50px;
 }
 
 
