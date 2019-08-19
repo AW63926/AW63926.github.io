@@ -61,7 +61,7 @@ footer {
 	padding-bottom: .5em;
 	padding-left: .5em;
 	padding-top: .5em;
-	width: 230px;
+	width: 220px;
 	height: 250px;
 	
 	
@@ -187,6 +187,10 @@ footer {
 	padding: 40px;
 	position: relative;
 	border-radius: 4px;
+}
+#modalButton{
+	height: 50px;
+	width: 80px;
 }
 
 .close {
