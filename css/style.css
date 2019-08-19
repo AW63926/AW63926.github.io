@@ -152,6 +152,8 @@ footer {
 }
 
 #mail {
+	height: 120px;
+	width: 130px;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-right: .5em;
@@ -200,5 +202,10 @@ footer {
 
 #modalP {
 	float: center;
+}
+
+#arrow{
+	height: 100px;
+	width: 90px;
 }
 
